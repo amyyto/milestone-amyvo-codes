@@ -1,0 +1,150 @@
+body {
+    background-color: #191919;
+    color: #9dbebb;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/***** GRIDS *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+
+header {
+    background: url(' ../img/hero-background.png');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    clear: both;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    padding: 0 25px;
+}
+
+nav {
+    float: right;
+    padding: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77ACA2;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px;
+}
+
+
+header h2 {
+    clear: both;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 80px;
+    padding: 200px 0 20px 25px;
+    width: 1000px;
+}
+
+header h2 span {
+    color: #468189;
+}
+
+/***** WORK *****/
+
+
+#work .full-width {
+    height: 400px;
+    margin: 0 auto;
+    clear: both;
+    padding: 0 50px;
+
+}
+
+#work .half-width {
+    padding: 0 50px;
+    width: 550px;
+}
+
+
+#work h2 {
+    text-align: center;
+}
+
+#about {
+    background: url(' ../img/right-arrow.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    height: 550px;
+}
+
+#about .full-width {
+    float: right;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#about .half-width {
+    float: right;
+}
+
+#about h2 {
+    font-size: 36px;
+}
+
+#about span {
+    color: #468189;
+}
+
+#contact .full-width {
+    margin: 0 auto;
+    clear: both;
+    padding: 0 50px;
+
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a:link {
+  color: #583d4b;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+}
